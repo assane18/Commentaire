@@ -1,0 +1,136 @@
+.comment-container {
+  width: 50%;
+  margin: auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.comment-input {
+  width: 98%;
+  border: none;
+  resize: none;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+.privacy-setting {
+  display: flex;
+  align-items: center;
+  color: #3b82f6;
+  font-size: 14px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.privacy-icon {
+  margin-right: 5px;
+}
+
+.comment-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.formatting-options {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+  color: #3b82f6;
+}
+
+.icon:hover {
+  color: grey;
+}
+
+.publish-button {
+  padding: 8px 15px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.publish-button:hover {
+  background-color: #2563eb;
+}
+
+.comment-list {
+  margin-top: 20px;
+}
+
+.comment {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.comment-image {
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+  
+
+.reply-box {
+  font-size: 14px; /* Taille du texte dans la zone de réponse */
+  width: 90%;
+  height: 40px; /* Taille de la zone de texte de réponse */
+  resize: none; /* Empêche le redimensionnement */
+  box-sizing: border-box;
+  overflow-y: auto; /* Ajoute une barre de défilement si le contenu dépasse */
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+
+
+.reply-button {
+  background: none;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.reply-button:hover {
+  color: black;
+}
+
+.reply-list {
+  margin-top: 10px;
+  padding-left: 20px;
+}
