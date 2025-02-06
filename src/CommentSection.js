@@ -55,6 +55,8 @@ function CommentSection() {
 
   return (
     <div className="comment-container">
+      <div className="Titre">Nouveau commentaire</div>
+      <div className="test">...</div>
       <div className="user-profile">
         <img src="https://jolstatic.fr/www/captures/4171/5/169935.jpg" alt="Avatar" className="avatar" />
         <span className="username">User1</span>
