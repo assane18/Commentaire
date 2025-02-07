@@ -5,7 +5,7 @@ import './App.css';  // Import du fichier CSS
 function App() {
   return (
     <div className="App">
-      <h1>Commentaires</h1>
+      <h1>Section de Commentaires</h1>
       <CommentSection />
     </div>
   );
